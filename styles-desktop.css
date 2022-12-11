@@ -1,0 +1,115 @@
+* {
+    margin: auto;
+    
+}
+
+nav, main, footer {
+    padding: 50px 0 50px 0;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+br, hr {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 80%;
+    border-top: 2px solid rgba(39, 39, 39, 0.26);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226);
+}
+
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1452441205368-432280a77839?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    background-color: rgba(197, 197, 197, 0.849);
+    padding: 20px 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226);
+}
+
+.nav-container-element1 {
+    flex: 20px;
+}
+
+.nav-container-element2 {
+    flex: 1250px;
+}
+
+.makers-selection-container {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.719);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226);
+}
+
+.box {
+    background-color: rgba(180, 180, 180, 0.63);
+    margin: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425);
+    transition: ease-out 0.2s;
+}
+
+.box:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
+    background-color: rgba(145, 145, 145, 0.651);
+    padding: 10px;
+    margin: 10px;
+    transition-duration: 0.3s;
+    transition-delay: 0.05s;
+    cursor: pointer;
+}
+
+.box:active {
+    background-color: rgba(221, 221, 221, 0.356); 
+}
+
+.nav-bar-button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(197, 197, 197, 0.651);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.226);
+}
+
+.nav-bar-button:hover {
+    cursor: pointer;
+}
+
+.text-box {
+    width: 30%;
+    height: 495px;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226);
+    overflow: scroll;
+    line-height: 1.5rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226);
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
